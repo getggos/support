@@ -1,12 +1,12 @@
 # ggOS Support Files
 Experience Windows 10 with hundreds of latency, performance, privacy, and quality of life tweaks.
 
-## Distribution
+### Distribution
 ggOS is offered free of charge, and should only be
 downloaded from an official source. Please report abuse.
 Commercial distribution is strictly prohibited by law.
 
-## Credits
+### Credits
 The following people deserve special recognition for sharing
 their research, tweaks, programming skills, test results, and
 technical support. This iso would not exist without them:
@@ -16,7 +16,7 @@ SuperStrikE, Timecard, Tom, Velo, Zusier, the NTLite team,
 the Revision team, the Server.bat team, and countless more
 unknown posters on forums and other websites.
 
-## Legal Notice
+### Legal Notice
 This project is not affiliated with or endorsed by Microsoft
 Corporation, and is only offered under the terms of Fair Use,
 as codified by Title 17 United States Code, § 107. By using
@@ -28,7 +28,7 @@ must activate the software with your own genuine Microsoft
 key. Commercial distribution is strictly prohibited by law.
 Windows is a registered trademark of Microsoft Corporation.
 
-## Disclaimer
+### Disclaimer
 >THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND ANY
 EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
 THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
