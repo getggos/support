@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 "EnableBootTrace"=-
 "EnablePrefetcher"=dword:00000003
 "EnableSuperfetch"=dword:00000003
-"SfTracingState"=dword:00000001
+"SfTracingState"=-
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
 "DisableDeleteNotification"=dword:00000001
