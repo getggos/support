@@ -34,7 +34,8 @@ sc config bthserv start=demand >nul 2>&1
 :: ENABLE BLUETOOTH DEVICES
 devcon enable BTH* >nul 2>&1
 
-echo Bluetooth services have been enabled. Please restart your computer.
+echo Bluetooth services have been enabled.
+echo Install your Bluetooth driver, then restart your computer.
 pause
 
 exit /b 0

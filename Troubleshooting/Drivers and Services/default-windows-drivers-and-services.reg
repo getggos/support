@@ -31,9 +31,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD]
 "Start"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\afunix]
-"Start"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ahcache]
 "Start"=dword:00000001
 
@@ -238,15 +235,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CryptSvc]
 "Start"=dword:00000002
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CSC]
-"Start"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CscService]
-"Start"=dword:00000003
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dam]
-"Start"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DcomLaunch]
 "Start"=dword:00000002
 
@@ -300,6 +288,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DmEnrollmentSvc]
 "Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmwappushservice]
+"Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache]
 "Start"=dword:00000002
@@ -370,9 +361,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FontCache]
 "Start"=dword:00000002
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FrameServer]
-"Start"=dword:00000003
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FsDepends]
 "Start"=dword:00000003
 
@@ -410,9 +398,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hidinterrupt]
-"Start"=dword:00000003
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HidIr]
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hidserv]
@@ -471,6 +456,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\iaLPSSi_I2C]
 "Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IaNVMe]
+"Start"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\iaStorAVC]
 "Start"=dword:00000000
@@ -582,9 +570,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MMCSS]
 "Start"=dword:00000002
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Modem]
-"Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\monitor]
 "Start"=dword:00000003
@@ -850,13 +835,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Ramdisk]
 "Start"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAcd]
-"Start"=dword:00000003
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAgileVpn]
-"Start"=dword:00000003
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAuto]
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Rasl2tp]
@@ -899,9 +878,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\rt640x64]
-"Start"=dword:00000003
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RTSUER]
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RTWlanE]
@@ -1030,9 +1006,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TabletInputService]
 "Start"=dword:00000003
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TapiSrv]
-"Start"=dword:00000003
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip]
 "Start"=dword:00000000
 
@@ -1065,9 +1038,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\tunnel]
 "Start"=dword:00000003
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\tzautoupdate]
-"Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UASPStor]
 "Start"=dword:00000003
@@ -1136,9 +1106,6 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\usbccgp]
-"Start"=dword:00000003
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\usbcir]
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\usbehci]
