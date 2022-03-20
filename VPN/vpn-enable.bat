@@ -21,3 +21,4 @@ echo VPN support has been enabled. Please restart your computer.
 pause
 
 exit /b 0
+
