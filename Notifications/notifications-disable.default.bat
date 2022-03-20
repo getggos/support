@@ -18,3 +18,4 @@ echo Notifications have been disabled. Please restart your computer.
 pause
 
 exit /b 0
+
