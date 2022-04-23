@@ -31,6 +31,9 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD]
 "Start"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\afunix]
+"Start"=dword:00000001
+
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ahcache]
 "Start"=dword:00000001
 
@@ -199,6 +202,9 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\circlass]
 "Start"=dword:00000003
 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CldFlt]
+"Start"=dword:00000002
+
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CLFS]
 "Start"=dword:00000000
 
@@ -289,9 +295,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DmEnrollmentSvc]
 "Start"=dword:00000003
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dmwappushservice]
-"Start"=dword:00000004
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache]
 "Start"=dword:00000002
 
@@ -360,6 +363,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FontCache]
 "Start"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FrameServer]
+"Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FsDepends]
 "Start"=dword:00000003
@@ -835,7 +841,13 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Ramdisk]
 "Start"=dword:00000000
 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAcd]
+"Start"=dword:00000003
+
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAgileVpn]
+"Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAuto]
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Rasl2tp]
@@ -866,6 +878,9 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\rhproxy]
+"Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RmSvc]
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcEptMapper]
@@ -1004,6 +1019,9 @@ Windows Registry Editor Version 5.00
 "Start"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TabletInputService]
+"Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TapiSrv]
 "Start"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip]
