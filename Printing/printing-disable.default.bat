@@ -13,8 +13,6 @@ devcon disable "=PrintQueue" >nul 2>&1
 
 :: DISABLE PRINTING SERVICES
 sc config Spooler start=disabled >nul 2>&1
-sc config PrintNotify start=disabled >nul 2>&1
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PrintWorkflowUserSvc" /v "Start" /t REG_DWORD /d "4" /f >nul 2>&1
 
 echo Printing has been disabled.
 pause

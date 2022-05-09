@@ -1,0 +1,13 @@
+HOW TO FIX MINECRAFT BEDROCK EDITION INSTALLATION AND LOGIN ISSUES
+
+1. Install the Microsoft Store, the Xbox app (including dependencies in settings), and the Xbox Game Bar app.
+
+2. Go here and unlink all devices linked to your account:
+https://account.microsoft.com/devices/content 
+
+3. Log out of the store and log back in.
+
+4. Install Minecraft and login.
+
+For other issues, visit:
+https://answers.microsoft.com/en-us/xbox/forum/all/minecraft-for-windows-installation-error/cda328e2-3ce2-4920-b5f8-28d85a709962

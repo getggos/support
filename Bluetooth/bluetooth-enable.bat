@@ -32,6 +32,7 @@ sc config BthAvctpSvc start=demand >nul 2>&1
 sc config bthserv start=demand >nul 2>&1
 
 :: ENABLE BLUETOOTH DEVICES
+timeout /t 3 /nobreak >nul 2>&1
 devcon enable BTH* >nul 2>&1
 
 echo Bluetooth services have been enabled.
