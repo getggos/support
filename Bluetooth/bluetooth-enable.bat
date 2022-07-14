@@ -17,6 +17,7 @@ sc config BthEnum start=demand >nul 2>&1
 sc config BthHFEnum start=demand >nul 2>&1
 sc config BthLEEnum start=demand >nul 2>&1
 sc config BthMini start=demand >nul 2>&1
+sc config BTHMODEM start=demand >nul 2>&1
 sc config BthPan start=demand >nul 2>&1
 sc config BTHPORT start=demand >nul 2>&1
 sc config BTHUSB start=demand >nul 2>&1
@@ -30,6 +31,7 @@ sc config BluetoothUserService start=demand >nul 2>&1
 sc config BTAGService start=demand >nul 2>&1
 sc config BthAvctpSvc start=demand >nul 2>&1
 sc config bthserv start=demand >nul 2>&1
+sc config Modem start=demand >nul 2>&1
 
 :: ENABLE BLUETOOTH DEVICES
 timeout /t 3 /nobreak >nul 2>&1

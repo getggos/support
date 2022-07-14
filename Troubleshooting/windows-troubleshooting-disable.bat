@@ -12,7 +12,7 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Windows" /v "NoInteractiveService
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\WMI\Autologger\DiagLog" /v "Start" /t REG_DWORD /d "0" /f >nul 2>&1
 sc config DPS start=disabled >nul 2>&1
 
-echo Diagnostics & Troubleshooting services have been disabled. Please restart your computer.
+echo Diagnostics and Troubleshooting services have been disabled. Please restart your computer.
 pause
 
 /exit /b 0

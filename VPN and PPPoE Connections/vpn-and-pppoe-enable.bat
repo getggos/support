@@ -16,6 +16,7 @@ sc config RasPppoe start=demand >nul 2>&1
 
 :: ENABLE VPN SERVICES
 sc config RasMan start=auto >nul 2>&1
+sc config SstpSvc start=demand >nul 2>&1
 
 echo VPN support has been enabled. Please restart your computer.
 pause

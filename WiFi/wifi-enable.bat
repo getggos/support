@@ -15,6 +15,9 @@ sc start vwififlt >nul 2>&1
 sc config WlanSvc start=auto >nul 2>&1
 sc start WlanSvc >nul 2>&1
 
+:: ENABLE ALL ADAPTERS
+devcon enable =net >nul 2>&1
+
 echo WiFi services have been enabled.
 pause
 

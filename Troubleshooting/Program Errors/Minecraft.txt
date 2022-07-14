@@ -7,7 +7,9 @@ https://account.microsoft.com/devices/content
 
 3. Log out of the store and log back in.
 
-4. Install Minecraft and login.
+4. Go to Xbox Networking in settings. Make sure there are no errors, and NAT type is Open or Moderate.
+
+5. Install Minecraft and login.
 
 For other issues, visit:
 https://answers.microsoft.com/en-us/xbox/forum/all/minecraft-for-windows-installation-error/cda328e2-3ce2-4920-b5f8-28d85a709962
